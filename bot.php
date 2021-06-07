@@ -9,7 +9,7 @@ error_reporting(0);
 set_time_limit(0);
 
 flush();
-$API_KEY = '1471801092:AAEsHe50qavvUnPtQ_PGpM8DHEfCEZFHa94'; //Your token
+$API_KEY = '1825993216:AAHv8M0Dm320LHnAqglhBtSqixeZcTmPCVo'; //Your token
 ##------------------------------##
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
@@ -51,7 +51,6 @@ bot('sendmessage', [
 
 Use*** `/bin xxxxx` ***to check the bin.
 
-You can also make a bot like this from here:- https://github.com/BenchamXd/Bin-Checker***",
 'parse_mode'=>"MarkDown",
 ]);
 if(strpos($text,"/bin") !== false){ 
